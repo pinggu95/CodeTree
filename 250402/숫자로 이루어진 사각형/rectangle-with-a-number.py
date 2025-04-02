@@ -6,10 +6,10 @@ def num():
     
     for i in range(n):
         for j in range(n):
-            print(number[index],end = '')
-            index = 0
+            print(number[index],end = ' ')
+            index += 1
 
             if index == 9:
-                inxex = 0
-    print()        
+                index = 0
+        print()        
 num()
