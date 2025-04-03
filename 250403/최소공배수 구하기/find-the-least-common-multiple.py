@@ -10,4 +10,4 @@ def gcd(n, m):
 
 def lcm(n, m):
     return abs(n * m) // gcd(n, m)
-lcm(n, m)
+print(lcm(n, m))
